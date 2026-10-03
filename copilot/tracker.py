@@ -7,7 +7,7 @@ import time
 from pathlib import Path
 
 REPO_ROOT = Path(__file__).resolve().parent.parent
-DEFAULT_DB = REPO_ROOT / "data" / "tracker.db"
+DEFAULT_DB = Path(os.getenv("JOBFIT_DATA_DIR") or REPO_ROOT / "data") / "tracker.db"
 
 SCHEMA = """
 CREATE TABLE IF NOT EXISTS applications (

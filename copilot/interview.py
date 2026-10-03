@@ -35,7 +35,11 @@ def _responsibilities(jd_text: str) -> list[str]:
     for line in jd_text.splitlines():
         line = line.strip()
         if _RESP_RE.match(line):
-            first = re.split(r"(?<=[.;])\s|,\s(?:and|including)\s", line.lstrip("-•●* "))[0]
+            first = re.split(r"(?<=[.;])\s|,\s+including\s", line.lstrip("-•●* "))[0]
+            # Only trim at ", and" when the duty is long — a short line's
+            # ", and" is usually a list ("Python, FastAPI, and LangGraph").
+            if len(first) > 110 and ", and " in first[40:]:
+                first = first[:40] + first[40:].split(", and ", 1)[0]
             out.append(first.rstrip(" ,;") + ("" if first.endswith(".") else "."))
     return out
 

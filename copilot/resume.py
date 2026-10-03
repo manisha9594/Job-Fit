@@ -11,7 +11,8 @@ from pathlib import Path
 
 REPO_ROOT = Path(__file__).resolve().parent.parent
 SAMPLE_PROFILE = REPO_ROOT / "sample_data" / "sample_profile.md"
-DATA_DIR = REPO_ROOT / "data"
+# Override with JOBFIT_DATA_DIR to keep a separate data set (e.g. a demo copy).
+DATA_DIR = Path(os.getenv("JOBFIT_DATA_DIR") or REPO_ROOT / "data")
 RESUME_EXTS = (".pdf", ".docx", ".txt", ".md")
 # Original filename of the uploaded resume, shown in the UI.
 UPLOAD_NAME_FILE = DATA_DIR / "resume_name.txt"

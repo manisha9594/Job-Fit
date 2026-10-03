@@ -6,6 +6,34 @@ and a pipeline of specialist agents extracts the details, scores the fit
 against my resume, tailors bullets, drafts recruiter outreach, and preps me
 for interviews. A local SQLite tracker keeps every application organized.
 
+## Screenshots
+
+*Shown with a fictional sample candidate and job posting.*
+
+**Analyze a job posting** — paste the JD, get fit score and the role's top skills vs your resume
+
+![Analyze a job posting](docs/screenshots/1-analyze-overview.png)
+
+**Fit score and top skills**
+
+![Fit score and top skills](docs/screenshots/2-fit-and-top-skills.png)
+
+**Interview prep** — role-specific questions plus most-asked questions for each skill
+
+![Interview prep](docs/screenshots/3-interview-prep.png)
+
+**Tailor your resume** — review/edit bullets, download your .docx with formatting kept
+
+![Tailor your resume](docs/screenshots/4-tailor-resume.png)
+
+**Saved jobs** — keep a table of analyzed jobs and export it as a PDF
+
+![Saved jobs](docs/screenshots/5-saved-jobs.png)
+
+**Question bank** — searchable most-asked interview questions by skill
+
+![Question bank](docs/screenshots/6-question-bank.png)
+
 ## What it does
 
 ```
