@@ -1,0 +1,20 @@
+# Local-only data: your real resume, the tracker database, and .env secrets.
+# Nothing in data/ is committed to git. The repo ships sample_data/ instead.
+data/
+.env
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/
+*.egg-info/
+.venv/
+venv/
+
+# Frontend
+frontend/node_modules/
+frontend/dist/
+
+# OS
+.DS_Store

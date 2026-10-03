@@ -1,0 +1,26 @@
+Senior AI Engineer, Applied AI
+Northwind Labs
+San Francisco, CA · Hybrid (3 days in office)
+
+About the role:
+Northwind Labs is hiring a Senior AI Engineer to build LLM-powered product
+features used by millions of customers. You will design agentic workflows,
+ship RAG pipelines, and own Python services end to end.
+
+What you'll do:
+- Design and ship LLM-powered features with Python, FastAPI, and LangChain/LangGraph
+- Build and evaluate RAG pipelines over large document corpora (vector DBs, embeddings)
+- Develop multi-agent systems with tool calling and human-in-the-loop review
+- Collaborate with product and design on a React + TypeScript frontend
+
+Requirements:
+- 5+ years of software engineering, 3+ years with Python
+- Production experience with LLMs: prompt engineering, evals, and guardrails
+- Hands-on with RAG: chunking, embeddings, FAISS or similar vector databases
+- Familiarity with AWS, Docker, and CI/CD pipelines
+- Experience with React and TypeScript is a plus
+
+Compensation: $170,000 - $220,000 per year + equity
+
+Work authorization: You must be authorized to work in the United States. We are
+unable to sponsor or take over sponsorship of an employment visa at this time.

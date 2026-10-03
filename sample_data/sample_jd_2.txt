@@ -1,0 +1,22 @@
+Senior Full-Stack AI Product Engineer
+Fabrikam Health — Remote, United States
+
+Fabrikam Health is building AI copilots for clinical documentation. We're
+looking for a senior full-stack engineer who lives at the intersection of
+LLMs and product.
+
+Responsibilities:
+- Build conversational AI features with Python/FastAPI backends and React frontends
+- Implement retrieval-augmented generation with PostgreSQL + pgvector
+- Prototype agentic workflows using LangGraph, with clinician-in-the-loop approval
+- Ship TypeScript/React UI with streaming responses and cited sources
+
+Qualifications:
+- 6+ years building production software, strong Python required
+- Experience with LLM APIs (OpenAI, Anthropic), prompt engineering
+- Shipped RAG or search features; comfortable with SQL and embeddings
+- AWS experience; Terraform a plus
+
+Salary: $150,000 - $190,000
+
+Benefits: remote-first, unlimited PTO, home office stipend.
